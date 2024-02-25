@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  BackendTask1:
+    image: BackendTask1
+    ports:
+      - "8081:8081"  # Expose ports if needed
+
+  Cache:
+    image: Cache
+    ports:
+      - "8082:8082"  # Expose ports if needed
